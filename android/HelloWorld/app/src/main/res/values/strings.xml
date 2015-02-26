@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">HelloWorld</string>
+
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="hello_message">This is our first view</string>
+	<string name="hello_button">Press me!</string>
+</resources>
