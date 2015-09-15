@@ -8,4 +8,4 @@ This semester, meetings will (tentatively) be held every **Wednesday from 4:30 P
 
 This week's meeting will be held on **Wednesday, September 16 from 4:30 PM to 5:30 PM** in the **Mac Lab**.
 
-We're going to walk through installations for Android Studio and Xcode for Android and iOS development. We'll also talk about the app ideas again and get another round of voting for those who have not heard about the ideas yet. You can look at the app ideas that are currently being considered [on this page](https://github.com/).
+We're going to walk through installations for Android Studio and Xcode for Android and iOS development. We'll also talk about the app ideas again and get another round of voting for those who have not heard about the ideas yet. You can look at the app ideas that are currently being considered [on this page](https://github.com/bgottlob/tcnj-madc-resources/blob/master/app-ideas.md).
