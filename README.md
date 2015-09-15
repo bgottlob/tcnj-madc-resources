@@ -6,6 +6,6 @@ This semester, meetings will (tentatively) be held every **Wednesday from 4:30 P
 
 ## This Week's Meeting
 
-Our first official meeting of the semester will be held on **Wednesday, September 9 from 4:30 PM to 5:30 PM** in the **Mac Lab**. We'll be talking about our plan to work collectively on a single mobile app throughout the year. Once we cover the basics of Android and iOS, our tutorials will be focused on implementing various features of our app.
+This week's meeting will be held on **Wednesday, September 16 from 4:30 PM to 5:30 PM** in the **Mac Lab**.
 
-There aren't any app ideas floating around yet, so come with ideas! There are no restrictions on ideas; they can be for games, utilities, or apps that already exist. The focus of building an app together is to learn mobile development skills and collaborate in an interesting way. See you there!
+We're going to walk through installations for Android Studio and Xcode for Android and iOS development. We'll also talk about the app ideas again and get another round of voting for those who have not heard about the ideas yet. You can look at the app ideas that are currently being considered [on this page](https://github.com/).
