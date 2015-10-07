@@ -4,11 +4,8 @@ Welcome to TCNJ MADC's official GitHub repo, where you can find club announcemen
 
 This semester, meetings will (tentatively) be held every **Wednesday from 4:30 PM to 5:30 PM** in the **Linux Lab** on the fourth floor of Forcina.
 
-## This Week's Meeting
-
-This week's meeting will be held on **Wednesday, September 30 from 4:30 PM to 5:30 PM** in the **Linux Lab**.
-
-One of our Android gurus (Matt, Jake, or Brett) will be presenting a beginner Android tutorial. Check back on the GitHub repo before the meeting to see the tutorial notes! Also make sure you have installed Android Studio on your laptops before coming to the meeting. You can install Android studio at [this link](https://developer.android.com/sdk/index.html).
+## No Meeting This Week
+Enjoy Google recruiting day!
 
 ## Last Week's Meeting
 
