@@ -6,7 +6,7 @@ This semester, meetings will (tentatively) be held every **Wednesday from 4:30 P
 
 ## This Week's Meeting: Objects and Classes in Swift
 
-This week's meeting will take place on Wednesday, October 14 at 4:30 in the Forcina Linux Lab. I'll be giving a tutorial on creating functions, classes, and objects in Swift. Since a fair number of you know Java already, the object oriented concepts will be a review. However, those concepts will become very important when building iOS apps, so we'll spend this meeting understanding them (and implementing them in Swift) so that everyone is up to speed. The tutorial will mirror [this one by Ray Wenderlich](http://www.raywenderlich.com/114234/learn-to-code-ios-apps-with-swift-tutorial-3-arrays-objects-and-classes). Before the meeting, I'll update our GitHub repo with example code and an outline of the tutorial.
+This week's meeting will take place on **Wednesday, October 14 at 4:30 in the Forcina Linux Lab**. I'll be giving a tutorial on creating functions, classes, and objects in Swift. Since a fair number of you know Java already, the object oriented concepts will be a review. However, those concepts will become very important when building iOS apps, so we'll spend this meeting understanding them (and implementing them in Swift) so that everyone is up to speed. The tutorial will mirror [this one by Ray Wenderlich](http://www.raywenderlich.com/114234/learn-to-code-ios-apps-with-swift-tutorial-3-arrays-objects-and-classes). Before the meeting, I'll update our GitHub repo with example code and an outline of the tutorial.
 
 ## The Meeting Before Last Week's Meeting
 
