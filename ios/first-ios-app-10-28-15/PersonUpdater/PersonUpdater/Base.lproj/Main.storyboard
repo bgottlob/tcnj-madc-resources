@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PersonUpdater" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45f-9N-TBA">
+                                <rect key="frame" x="177" y="55" width="246" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EP3-Sa-Juf"/>
+                                    <constraint firstAttribute="width" constant="246" id="KvC-9D-yOs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDt-My-VLP">
+                                <rect key="frame" x="177" y="95" width="246" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="Oum-qV-JnL"/>
+                                    <constraint firstAttribute="height" constant="21" id="XzS-uQ-bte"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUS-oP-hfx">
+                                <rect key="frame" x="177" y="137" width="246" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FKC-fh-McP"/>
+                                    <constraint firstAttribute="width" constant="246" id="eux-9X-fgM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HU-Ds-6lL">
+                                <rect key="frame" x="245" y="174" width="111" height="52"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="XJV-jc-aAn"/>
+                                    <constraint firstAttribute="width" constant="111" id="d0o-Bv-Gxs"/>
+                                </constraints>
+                                <state key="normal" title="Person 1"/>
+                                <connections>
+                                    <action selector="clickPerson1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFC-vG-Wau"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAV-sA-cbo">
+                                <rect key="frame" x="245" y="234" width="111" height="52"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="Ear-2O-pr7"/>
+                                    <constraint firstAttribute="height" constant="52" id="WnE-oq-Lmf"/>
+                                </constraints>
+                                <state key="normal" title="Person 2"/>
+                                <connections>
+                                    <action selector="clickPerson2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XX5-hD-kNU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxk-AV-gXb">
+                                <rect key="frame" x="245" y="294" width="111" height="52"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="BeH-uj-fIX"/>
+                                    <constraint firstAttribute="width" constant="111" id="K8g-WH-HJq"/>
+                                </constraints>
+                                <state key="normal" title="Person 3"/>
+                                <connections>
+                                    <action selector="clickPerson3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mmi-c5-p45"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CDt-My-VLP" firstAttribute="top" secondItem="45f-9N-TBA" secondAttribute="bottom" constant="19" id="1rq-dV-JaF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hxk-AV-gXb" secondAttribute="bottom" constant="254" id="7Yo-Fz-WvW"/>
+                            <constraint firstItem="45f-9N-TBA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DMB-5i-S0G"/>
+                            <constraint firstItem="45f-9N-TBA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OXg-go-bVc"/>
+                            <constraint firstItem="Hxk-AV-gXb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pin-kZ-9O0"/>
+                            <constraint firstItem="9HU-Ds-6lL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q1Y-aE-7EN"/>
+                            <constraint firstItem="OUS-oP-hfx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XKj-yj-dle"/>
+                            <constraint firstItem="IAV-sA-cbo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7F-vf-FCs"/>
+                            <constraint firstItem="CDt-My-VLP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bWH-zr-zza"/>
+                            <constraint firstItem="Hxk-AV-gXb" firstAttribute="top" secondItem="IAV-sA-cbo" secondAttribute="bottom" constant="8" id="q3D-5j-d0M"/>
+                            <constraint firstItem="OUS-oP-hfx" firstAttribute="top" secondItem="CDt-My-VLP" secondAttribute="bottom" constant="21" id="s7v-fZ-2AT"/>
+                            <constraint firstItem="45f-9N-TBA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="sBq-vm-Q8f"/>
+                            <constraint firstItem="IAV-sA-cbo" firstAttribute="top" secondItem="9HU-Ds-6lL" secondAttribute="bottom" constant="8" id="tq2-hK-8lb"/>
+                            <constraint firstItem="9HU-Ds-6lL" firstAttribute="top" secondItem="OUS-oP-hfx" secondAttribute="bottom" constant="16" id="yNy-M1-1Yd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="OUS-oP-hfx" id="5KT-b8-sx5"/>
+                        <outlet property="firstNameLabel" destination="45f-9N-TBA" id="EpP-8L-caf"/>
+                        <outlet property="lastNameLabel" destination="CDt-My-VLP" id="KKL-Rc-ZUN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="305"/>
+        </scene>
+    </scenes>
+</document>
