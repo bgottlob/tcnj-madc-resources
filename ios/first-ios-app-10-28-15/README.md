@@ -29,7 +29,6 @@
             - Select "Vertical Spacing to Top Layout Guide"
                 - This sets a constraint for a set amount of space between the top of the screen and the top of the label
                 - This value can be modified by clicking the vertical line that appears from this action
-        - Do this for the "Person 3" button, except drag the line in this space towards the bottom of the screen and select *Vertical Spacing to Bottom Layout Guide*
         - Next, repeat this process by control-dragging the "First Name:" label to the "Last Name:" label and selecting *Vertical Spacing*
         - Repeat this process for "Last Name:" to "Age:" and so on for the vertical spacing between each UI element
         - Finally, select all of the UI elements, then, click this icon at the bottom of the UI editor:
