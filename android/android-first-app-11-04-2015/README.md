@@ -55,7 +55,7 @@ Finally, we are going to create an onClickListener for each of the Buttons that 
   person1Button.setOnClickListener(new View.OnClickListener(){
     @Override
     public void onClick(View v){
-    Person person [0];
+    Person person = people[0];
       firstNameTextView.setText(getString(R.string.first_name) + " " + person.getFirstName());
       lastNameTextView.setText(getString(R.string.last_name) + " " + person.getLastName());
       ageTextView.setText(getString(R.string.age) + " " + person.getAge());
