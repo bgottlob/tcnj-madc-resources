@@ -1,5 +1,8 @@
+# Person Updater Part 1
+### New App
 Follow the same process as last time when creating a new app. We'll call the app PersonUpdater. Select the option to create with a blank activity and don't bother to rename it. 
 
+### Adding A UI
 Once the app is done being initialized, the UI editor should pop up. This time we will try using it to create our UI. A few things to note that you can probably already see:
   -The Palette for UI elements is on the left hand side
   -The middle is our device that we will be dragging and dropping onto
@@ -19,42 +22,46 @@ Once you have created these 3 text views, look in the top left corner of the lay
 
 One more thing before we finish up with the View, it's time to add some buttons. Try adding 3 buttons by following the same steps as before. Follow the format of id = personX_button and set the text = PersonX where X is the number of the button you are making. 
 
+### The Model
 Alright, that's enough UI editing for now, time to start some of the coding.
+Open up the Java folder then click on your java package for the app to cascade those files. Click File then New to create a new Java Class. Name this class Person, then add 3 private variables, one for firstName, one for lastName, and one for age. I trust that you all know how to do this, but if not, reference the  Person.java file in the project. Create a constructor and write a setter for firstName called changeFirstName. Once, this is set up, right click on a line below the constructer and select 'generate' then select 'Getters and Setters'. 
 
-Open up the Java folder then click on your java package for the app to cascade those files. Click File then New to create a new Java Class. Name this class Person, then add 3 private variables, one for firstName, one for lastName, and one for age. Create a constructor and write a setter for firstName called changeFirstName. Once, this is set up, right click on a line below the constructer and select 'generate' then select 'Getters and Setters'. 
-
+### The Activity
 Now open up MainActivity.java. It's time to put the Model and the View together. Start by declaring a private Person array called people at the top of MainActivity
-
-private Person[] people = new Person[]{
-  new Person("Han", "Solo", 35),
-  new Person("Luke", "Skywalker", 22),
-  new Person("Ben", "Kenobi", 75)
-};
+``` java
+  private Person[] people = new Person[]{
+    new Person("Han", "Solo", 35),
+    new Person("Luke", "Skywalker", 22),
+    new Person("Ben", "Kenobi", 75)
+  };
+```
 
 Then, declare 3 private TextView variables for the TextViews that we created in the View.
-
-private TextView firstNameTextView;
-private TextView lastNameTextView;
-private TextView ageTextView;
-
+``` java
+  private TextView firstNameTextView;
+  private TextView lastNameTextView;
+  private TextView ageTextView;
+```
 Next in the onCreate callback, we are going to get the View elements and assign them to the TextView variables we just declared
-
-firstNameTextView = (TextView)findViewById(R.id.first_name_label);
-lastNameTextView = (TextView)findViewById(R.id.last_name_label);
-ageTextView = (TextView)findViewById(R.id.age_label);
+``` java
+  firstNameTextView = (TextView)findViewById(R.id.first_name_label);
+  lastNameTextView = (TextView)findViewById(R.id.last_name_label);
+  ageTextView = (TextView)findViewById(R.id.age_label);
+```
 
 Finally, we are going to create an onClickListener for each of the Buttons that we created earlier.
-
-Button person1Button = (Button)findViewById(R.id.person1_button);
-person1Button.setOnClickListener(new View.OnClickListener(){
-  @Override
-  public void onClick(View v){
+``` java
+  Button person1Button = (Button)findViewById(R.id.person1_button);
+  person1Button.setOnClickListener(new View.OnClickListener(){
+    @Override
+    public void onClick(View v){
     Person person [0];
-    firstNameTextView.setText(getString(R.string.first_name) + " " + person.getFirstName());
-    lastNameTextView.setText(getString(R.string.last_name) + " " + person.getLastName());
-    ageTextView.setText(getString(R.string.age) + " " + person.getAge());
-  }
-});
+      firstNameTextView.setText(getString(R.string.first_name) + " " + person.getFirstName());
+      lastNameTextView.setText(getString(R.string.last_name) + " " + person.getLastName());
+      ageTextView.setText(getString(R.string.age) + " " + person.getAge());
+    }
+  });
+```
 
 Fill this in for the other 2 buttons now. That's it! Try to run it now. 
 
